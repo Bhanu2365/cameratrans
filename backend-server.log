@@ -1,0 +1,85 @@
+Watching for file changes with StatReloader
+[01/Nov/2026 13:33:33] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:33:33] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:33:48] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:33:48] "GET /api/batches/ HTTP/1.1" 200 2
+Bad Request: /api/batches/
+[01/Nov/2026 13:33:52] "POST /api/batches/ HTTP/1.1" 400 95
+[01/Nov/2026 13:34:03] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:34:03] "GET /api/batches/ HTTP/1.1" 200 2
+Bad Request: /api/batches/
+[01/Nov/2026 13:34:14] "POST /api/batches/ HTTP/1.1" 400 60
+[01/Nov/2026 13:34:18] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:34:18] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:34:33] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:34:33] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:34:48] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:34:48] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:35:03] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:35:03] "GET /api/network-info/ HTTP/1.1" 200 134
+/Users/bhanuprakash/Desktop/PLV Content/personal/cameratrans/backend/gallery/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 01, 2026 - 13:33:29
+Django version 5.2.18, using settings 'snapqr.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+[01/Nov/2026 13:35:30] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:35:30] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:35:42] "POST /api/batches/ HTTP/1.1" 201 380
+[01/Nov/2026 13:35:42] "GET /api/batches/ HTTP/1.1" 200 382
+[01/Nov/2026 13:35:42] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:35:45] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:35:45] "GET /api/batches/ HTTP/1.1" 200 382
+[01/Nov/2026 13:35:52] "GET /api/batches/304c623d-f4f2-41e2-b549-0f159671f21f/ HTTP/1.1" 200 380
+[01/Nov/2026 13:35:52] "GET /api/photos/1/preview/ HTTP/1.1" 200 44095
+[01/Nov/2026 13:35:53] "GET /api/photos/1/download/ HTTP/1.1" 200 199982
+[01/Nov/2026 13:36:00] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:36:00] "GET /api/batches/ HTTP/1.1" 200 382
+[01/Nov/2026 13:36:15] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:36:15] "GET /api/batches/ HTTP/1.1" 200 382
+[01/Nov/2026 13:36:31] "POST /api/batches/304c623d-f4f2-41e2-b549-0f159671f21f/close/ HTTP/1.1" 204 0
+[01/Nov/2026 13:36:31] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:36:31] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:36:32] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:36:32] "GET /api/batches/ HTTP/1.1" 200 2
+Not Found: /api/batches/304c623d-f4f2-41e2-b549-0f159671f21f/
+[01/Nov/2026 13:36:33] "GET /api/batches/304c623d-f4f2-41e2-b549-0f159671f21f/ HTTP/1.1" 404 46
+[01/Nov/2026 13:36:47] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:36:47] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:37:02] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:37:02] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:37:17] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:37:17] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:37:32] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:37:32] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:37:47] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:37:47] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:38:02] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:38:02] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:38:17] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:38:17] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:38:31] "POST /api/batches/ HTTP/1.1" 201 418
+[01/Nov/2026 13:38:31] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:38:31] "GET /api/batches/ HTTP/1.1" 200 420
+[01/Nov/2026 13:38:32] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:38:32] "GET /api/batches/ HTTP/1.1" 200 420
+[01/Nov/2026 13:38:37] "GET /api/batches/357d8c00-6fd9-4f58-a83d-e87b9924f14c/ HTTP/1.1" 200 418
+[01/Nov/2026 13:38:37] "GET /api/photos/2/preview/ HTTP/1.1" 200 48570
+[01/Nov/2026 13:38:46] "GET /api/photos/2/download/ HTTP/1.1" 200 2315106
+[01/Nov/2026 13:38:47] "GET /api/batches/ HTTP/1.1" 200 420
+[01/Nov/2026 13:38:47] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:39:06] "POST /api/batches/357d8c00-6fd9-4f58-a83d-e87b9924f14c/close/ HTTP/1.1" 204 0
+[01/Nov/2026 13:39:06] "GET /api/batches/ HTTP/1.1" 200 2
+[01/Nov/2026 13:39:06] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:39:08] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:39:08] "GET /api/batches/ HTTP/1.1" 200 2
+Not Found: /api/batches/357d8c00-6fd9-4f58-a83d-e87b9924f14c/
+[01/Nov/2026 13:39:17] "GET /api/batches/357d8c00-6fd9-4f58-a83d-e87b9924f14c/ HTTP/1.1" 404 46
+[01/Nov/2026 13:39:23] "GET /api/network-info/ HTTP/1.1" 200 134
+[01/Nov/2026 13:39:23] "GET /api/batches/ HTTP/1.1" 200 2

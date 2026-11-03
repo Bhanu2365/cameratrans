@@ -1,0 +1,5 @@
+.frame-picker{display:flex;align-items:center;gap:10px;margin-top:14px;color:#77766e;font-size:11px}
+.frame-picker input{max-width:190px;font-size:10px}
+.frame-picker span{color:#d36d4e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.frame-download{font-size:10px;text-decoration:none;padding:5px;color:#d06b4f!important;background:#fff0eb;border-radius:5px}
+@media(max-width:560px){.frame-picker{align-items:flex-start;flex-direction:column}}
